@@ -19,9 +19,9 @@ export default function ContactMainSection() {
       >
         <h1 className="text-6xl font-bold">Get In Touch</h1>
         <p className="text-2xl font-semibold">
-          Have any questions or need assistance? The team at Ring Ruby,
-          Sangotedo is always ready to ensure your stay is flawless. Don’t
-          hesitate to reach out—we’re here to help with anything you need.
+          Have any questions or need assistance? The team at Ring Ruby, Eso is
+          always ready to ensure your stay is flawless. Don't hesitate to reach
+          out—we're here to help with anything you need.
         </p>
       </div>
       <div
@@ -47,10 +47,10 @@ export default function ContactMainSection() {
           >
             <RiPhoneLine size="3rem" />
             <a
-              href="tel:+2349077168507"
+              href="tel:+2347012931037"
               className="border-b border-[color:var(--text-color)]/30 text-xl"
             >
-              +234 907 716 8507
+              +234 701 293 1037
             </a>
           </div>
           <div
@@ -59,10 +59,10 @@ export default function ContactMainSection() {
           >
             <RiMailLine size="3rem" />
             <a
-              href="mailto:info@ringrubyhotelsangotedo.com"
+              href="mailto:info@ringrubyhotelesoikejagra.com"
               className="border-b border-[color:var(--text-color)]/30 text-xl"
             >
-              info@ringrubyhotelsangotedo.com
+              info@ringrubyhotelesoikejagra.com
             </a>
           </div>
           <div

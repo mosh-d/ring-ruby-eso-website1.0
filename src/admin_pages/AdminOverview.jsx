@@ -7,10 +7,9 @@ import { IoRefresh } from "react-icons/io5";
 const API_BASE_URL = "https://five-clover-shared-backend.onrender.com";
 
 const ROOM_TYPE_MAP = {
-  standard: 23,
-  deluxe: 24,
-  executive: 25,
-  royal_suite: 26,
+  standard: 27,
+  executive: 28,
+  superior: 29,
 };
 
 export default function AdminOverviewPage() {
@@ -155,18 +154,6 @@ export default function AdminOverviewPage() {
               STANDARD
             </li>
           )}
-          {roomType === "deluxe" ? (
-            <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
-              DELUXE
-            </li>
-          ) : (
-            <li
-              className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
-              onClick={() => setRoomType("deluxe")}
-            >
-              DELUXE
-            </li>
-          )}
           {roomType === "executive" ? (
             <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
               EXECUTIVE
@@ -179,16 +166,16 @@ export default function AdminOverviewPage() {
               EXECUTIVE
             </li>
           )}
-          {roomType === "royal_suite" ? (
+          {roomType === "superior" ? (
             <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
-              ROYAL SUITE
+              SUPERIOR
             </li>
           ) : (
             <li
               className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
-              onClick={() => setRoomType("royal_suite")}
+              onClick={() => setRoomType("superior")}
             >
-              ROYAL SUITE
+              SUPERIOR
             </li>
           )}
         </menu>

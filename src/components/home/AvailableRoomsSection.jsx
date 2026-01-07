@@ -29,10 +29,6 @@ import { LuBath } from "react-icons/lu";
 import { TbAirConditioning, TbFridge } from "react-icons/tb";
 
 //Room images
-import deluxeRoomImage from "../../assets/room-images/deluxe/deluxe.jpg";
-import deluxeRoomImage2 from "../../assets/room-images/deluxe/deluxe-2.jpg";
-import deluxeRoomImage3 from "../../assets/room-images/deluxe/deluxe-3.jpg";
-import deluxeRoomImage4 from "../../assets/room-images/deluxe/deluxe-4.jpg";
 import executiveRoomImage from "../../assets/room-images/executive/executive.jpg";
 import executiveRoomImage2 from "../../assets/room-images/executive/executive-2.jpg";
 import executiveRoomImage3 from "../../assets/room-images/executive/executive-3.jpg";
@@ -41,20 +37,12 @@ import standardRoomImage from "../../assets/room-images/standard/standard.jpg";
 import standardRoomImage2 from "../../assets/room-images/standard/standard-2.jpg";
 import standardRoomImage3 from "../../assets/room-images/standard/standard-3.jpg";
 import standardRoomImage4 from "../../assets/room-images/standard/standard-4.jpg";
-import royalSuiteRoomImage from "../../assets/room-images/royal-suite/royal-suite.jpg";
-import royalSuiteRoomImage2 from "../../assets/room-images/royal-suite/royal-suite-2.jpg";
-import royalSuiteRoomImage3 from "../../assets/room-images/royal-suite/royal-suite-3.jpg";
-import royalSuiteRoomImage4 from "../../assets/room-images/royal-suite/royal-suite-4.jpg";
+import superiorRoomImage from "../../assets/room-images/superior/superior.jpg";
+import superiorRoomImage2 from "../../assets/room-images/superior/superior-2.jpg";
+import superiorRoomImage3 from "../../assets/room-images/superior/superior-3.jpg";
+import superiorRoomImage4 from "../../assets/room-images/superior/superior-4.jpg";
 
-//deluxe room images
-const deluxeRoomImages = [
-  deluxeRoomImage,
-  deluxeRoomImage2,
-  deluxeRoomImage3,
-  deluxeRoomImage4,
-];
-
-// classic room images
+// standard room images
 const standardRoomImages = [
   standardRoomImage,
   standardRoomImage2,
@@ -70,28 +58,26 @@ const executiveRoomImages = [
   executiveRoomImage4,
 ];
 
-// royal suite room images
-const royalSuiteRoomImages = [
-  royalSuiteRoomImage,
-  royalSuiteRoomImage2,
-  royalSuiteRoomImage3,
-  royalSuiteRoomImage4,
+// superior room images
+const superiorRoomImages = [
+  superiorRoomImage,
+  superiorRoomImage2,
+  superiorRoomImage3,
+  superiorRoomImage4,
 ];
 
 // Room type to gallery images mapping
 const roomGalleryImages = {
-  Deluxe: deluxeRoomImages,
-  Executive: executiveRoomImages,
   Standard: standardRoomImages,
-  "Royal Suite": royalSuiteRoomImages,
+  Executive: executiveRoomImages,
+  Superior: superiorRoomImages,
 };
 
 // Room type to image mapping
 const roomTypeImages = {
-  Deluxe: deluxeRoomImage,
-  Executive: executiveRoomImage,
   Standard: standardRoomImage,
-  "Royal Suite": royalSuiteRoomImage,
+  Executive: executiveRoomImage,
+  Superior: superiorRoomImage,
 };
 
 const useSharedContext = () => {

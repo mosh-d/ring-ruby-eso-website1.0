@@ -11,77 +11,73 @@ import beaches from "../../assets/hotel-surroundings/beaches.webp";
 
 const TOP_ATTRACTIONS = [
   {
-    title: "Novare Lekki Mall",
+    title: "Ikeja City Mall",
     distance: "2 km",
   },
   {
-    title: "Lufasi Nature Park",
-    distance: "5 km",
+    title: "Computer Village",
+    distance: "3 km",
   },
   {
-    title: "Lakowe Lakes Golf",
+    title: "Kalakuta Museum",
+    distance: "4 km",
+  },
+  {
+    title: "National Stadium",
+    distance: "8 km",
+  },
+  {
+    title: "Freedom Park Lagos",
     distance: "10 km",
-  },
-  {
-    title: "Omu Resort",
-    distance: "15 km",
-  },
-  {
-    title: "Lekki Conservation Centre",
-    distance: "12 km",
   },
 ];
 
 const SUPERMARKETS = [
   {
-    title: "Novare Mall Shoprite",
+    title: "Shoprite - Ikeja City Mall",
     distance: "2 km",
   },
   {
-    title: "Blenco Supermarket",
+    title: "Spar - Allen Avenue",
     distance: "1 km",
   },
   {
-    title: "Skymart Shopping Mall",
+    title: "Grand Square Mall",
     distance: "3 km",
   },
   {
-    title: "Ebeano Supermarket",
-    distance: "8 km",
+    title: "Mega Plaza",
+    distance: "2 km",
   },
 ];
 
 const TRANSPORTATION = [
   {
-    title: "Sangotedo Bus Stop",
-    distance: "1 km",
-  },
-  {
-    title: "Ajah Bus Terminal",
+    title: "Murtala Muhammed Airport",
     distance: "5 km",
   },
   {
-    title: "Lekki-Epe Expressway",
-    distance: "0.5 km",
+    title: "Ikeja Bus Terminal",
+    distance: "2 km",
+  },
+  {
+    title: "Lagos-Abeokuta Expressway",
+    distance: "1 km",
   },
 ];
 
 const BEACHES = [
   {
-    title: "Santa Cruz Beach",
-    distance: "8 km",
+    title: "Elegushi Private Beach",
+    distance: "20 km",
   },
   {
-    title: "Atican Beach",
-    distance: "10 km",
+    title: "Tarkwa Bay Beach",
+    distance: "25 km",
   },
   {
-    title: "Barracuda Beach",
-    distance: "12 km",
-  },
-  {
-    title: "Redline Beach Resort",
-    distance: "15 km",
+    title: "Lekki Beach",
+    distance: "22 km",
   },
 ];
 

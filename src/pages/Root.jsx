@@ -29,7 +29,7 @@ export default function RootLayout() {
   const [roomTypeId, setRoomTypeId] = useState(null);
   const [totalPayment, setTotalPayment] = useState(0);
   const [roomPrices, setRoomPrices] = useState({});
-  const [branchId] = useState(7); // Sangotedo branch ID
+  const [branchId] = useState(8); // Eso branch ID
   const [roomTypes, setRoomTypes] = useState([]);
   const [isLoadingRooms, setIsLoadingRooms] = useState(true);
 
@@ -197,11 +197,11 @@ export default function RootLayout() {
 
   // Get current page metadata
   const getPageMetadata = () => {
-    const baseUrl = "https://ringrubysangotedo.fivecloverhotels.com";
+    const baseUrl = "https://ringrubyeso.fivecloverhotels.com";
     const defaultMetadata = {
-      title: "Ring Ruby Hotel Sangotedo | Luxury Accommodation in Lagos",
+      title: "Ring Ruby Hotel Eso | Luxury Accommodation in Ikeja GRA, Lagos",
       description:
-        "Experience luxury and comfort at Ring Ruby Hotel Sangotedo. Book your stay at our premium hotel at United Estate, Sangotedo, Lagos.",
+        "Experience luxury and comfort at Ring Ruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
       url: `${baseUrl}${location.pathname}`,
       type: "website",
       image: "/ring-ruby-logo.webp",
@@ -209,34 +209,34 @@ export default function RootLayout() {
 
     const pageMetadata = {
       "/": {
-        title: "Ring Ruby Hotel Sangotedo | Luxury Accommodation in Lagos",
+        title: "Ring Ruby Hotel Eso | Luxury Accommodation in Ikeja GRA, Lagos",
         description:
-          "Experience luxury and comfort at Ring Ruby Hotel Sangotedo. Book your stay at our premium hotel at United Estate, Sangotedo, Lagos.",
+          "Experience luxury and comfort at Ring Ruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
       },
       "/about": {
-        title: "About Us | Ring Ruby Hotel Sangotedo",
+        title: "About Us | Ring Ruby Hotel Eso",
         description:
-          "Discover the story behind Ring Ruby Hotel Sangotedo and our commitment to providing exceptional hospitality in Lagos.",
+          "Discover the story behind Ring Ruby Hotel Eso and our commitment to providing exceptional hospitality in Ikeja GRA, Lagos.",
       },
       "/rooms": {
-        title: "Our Rooms | Ring Ruby Hotel Sangotedo",
+        title: "Our Rooms | Ring Ruby Hotel Eso",
         description:
-          "Explore our luxurious rooms and suites at Ring Ruby Hotel Sangotedo, designed for your comfort and relaxation.",
+          "Explore our luxurious rooms at Ring Ruby Hotel Eso, designed for your comfort and relaxation.",
       },
       "/gallery": {
-        title: "Photo Gallery | Ring Ruby Hotel Sangotedo",
+        title: "Photo Gallery | Ring Ruby Hotel Eso",
         description:
-          "View our photo gallery showcasing the luxurious facilities and comfortable accommodations at Ring Ruby Hotel Sangotedo.",
+          "View our photo gallery showcasing the luxurious facilities and comfortable accommodations at Ring Ruby Hotel Eso.",
       },
       "/contact": {
-        title: "Contact Us | Ring Ruby Hotel Sangotedo",
+        title: "Contact Us | Ring Ruby Hotel Eso",
         description:
-          "Get in touch with Ring Ruby Hotel Sangotedo. Our friendly staff is ready to assist with your booking and inquiries.",
+          "Get in touch with Ring Ruby Hotel Eso. Our friendly staff is ready to assist with your booking and inquiries.",
       },
       "/booking": {
-        title: "Book Your Stay | Ring Ruby Hotel Sangotedo",
+        title: "Book Your Stay | Ring Ruby Hotel Eso",
         description:
-          "Book your luxurious stay at Ring Ruby Hotel Sangotedo. Best rates guaranteed for our premium accommodations in Lagos.",
+          "Book your luxurious stay at Ring Ruby Hotel Eso. Best rates guaranteed for our premium accommodations in Ikeja GRA.",
       },
     };
 
@@ -260,24 +260,24 @@ export default function RootLayout() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Hotel",
-            name: "Ring Ruby Hotel Sangotedo",
+            name: "Ring Ruby Hotel Eso",
             description:
-              "Experience luxury and comfort at Ring Ruby Hotel Sangotedo. Book your stay at our premium hotel at United Estate, Sangotedo, Lagos.",
+              "Experience luxury and comfort at Ring Ruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
             image:
-              "https://ringrubysangotedo.fivecloverhotels.com/ring%20ruby%20logo.webp",
-            url: "https://ringrubysangotedo.fivecloverhotels.com",
+              "https://ringrubyeso.fivecloverhotels.com/ring%20ruby%20logo.webp",
+            url: "https://ringrubyeso.fivecloverhotels.com",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "21, Mopo Road, United Estate, Sangotedo",
-              addressLocality: "Sangotedo",
+              streetAddress: "4b, Eso Close, Oduduwa Crescent, Ikeja GRA",
+              addressLocality: "Ikeja GRA",
               addressRegion: "Lagos",
               postalCode: "100001",
               addressCountry: "NG",
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 6.467968384380604,
-              longitude: 3.6345845669452395,
+              latitude: 6.574213898959575,
+              longitude: 3.3538888865090737,
             },
             priceRange: "₦₦",
             starRating: {
@@ -285,8 +285,8 @@ export default function RootLayout() {
               ratingValue: "4.5",
               bestRating: "5",
             },
-            telephone: "+2349077168507",
-            email: "info@ringrubyhotelsangotedo.com",
+            telephone: "+2347012931037",
+            email: "info@ringrubyhotelesoikejagra.com",
             sameAs: [
               "https://www.facebook.com/RingrubyHotel?_rdc=1&_rdr#",
               "https://www.instagram.com/ringruby_hotel/",

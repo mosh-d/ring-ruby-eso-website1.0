@@ -1,17 +1,17 @@
 import { Helmet } from "react-helmet";
 
 const SEO = ({
-  title = "Ring Ruby Hotel Sangotedo | Luxury Accommodation in Lagos",
-  description = "Experience luxury and comfort at Ring Ruby Hotel Sangotedo. Book your stay at our premium hotel at United Estate, Sangotedo, Lagos.",
-  keywords = "hotel, lagos, accommodation, ring ruby, sangotedo, united estate, luxury hotel, nigeria, business hotel, vacation",
+  title = "Ring Ruby Hotel Eso | Luxury Accommodation in Ikeja GRA, Lagos",
+  description = "Experience luxury and comfort at Ring Ruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
+  keywords = "hotel, lagos, accommodation, ring ruby, eso, ikeja gra, oduduwa crescent, luxury hotel, nigeria, business hotel, vacation",
   image = "/ring-ruby-logo.webp",
   url = typeof window !== "undefined"
     ? window.location.href
-    : "https://ringrubysangotedo.fivecloverhotels.com",
+    : "https://ringrubyeso.fivecloverhotels.com",
   type = "website",
 }) => {
-  const siteName = "Ring Ruby Hotel Sangotedo";
-  const siteUrl = "https://ringrubysangotedo.fivecloverhotels.com";
+  const siteName = "Ring Ruby Hotel Eso";
+  const siteUrl = "https://ringrubyeso.fivecloverhotels.com";
   const twitterHandle = "@fivecloverhotel";
 
   return (

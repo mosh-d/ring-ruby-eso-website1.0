@@ -84,10 +84,10 @@ export default function Footer() {
             >
               <RiPhoneLine size="3rem" />
               <a
-                href="tel:+2349077168507"
+                href="tel:+2347012931037"
                 className="border-b border-[color:var(--text-color)]/30 text-xl"
               >
-                +234 907 716 8507
+                +234 701 293 1037
               </a>
             </div>
             <div
@@ -96,12 +96,12 @@ export default function Footer() {
             >
               <RiWhatsappLine size="3rem" />
               <a
-                href="https://wa.me/2349077168507"
+                href="https://wa.me/2347012931037"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b border-[color:var(--text-color)]/30 text-xl"
               >
-                +234 907 716 8507
+                +234 701 293 1037
               </a>
             </div>
             <div
@@ -110,10 +110,10 @@ export default function Footer() {
             >
               <RiMailLine size="3rem" />
               <a
-                href="mailto:info@ringrubyhotelsangotedo.com"
+                href="mailto:info@ringrubyhotelesoikejagra.com"
                 className="border-b border-[color:var(--text-color)]/30 text-xl"
               >
-                info@ringrubyhotelsangotedo.com
+                info@ringrubyhotelesoikejagra.com
               </a>
             </div>
           </div>
