@@ -36,7 +36,7 @@ import executiveRoomImage4 from "../../assets/room-images/executive/executive-4.
 import standardRoomImage from "../../assets/room-images/standard/standard.jpg";
 import standardRoomImage2 from "../../assets/room-images/standard/standard-2.jpg";
 import standardRoomImage3 from "../../assets/room-images/standard/standard-3.jpg";
-import standardRoomImage4 from "../../assets/room-images/standard/standard-4.jpg";
+// import standardRoomImage4 from "../../assets/room-images/standard/standard-4.jpg";
 import superiorRoomImage from "../../assets/room-images/superior/superior.jpg";
 import superiorRoomImage2 from "../../assets/room-images/superior/superior-2.jpg";
 import superiorRoomImage3 from "../../assets/room-images/superior/superior-3.jpg";
@@ -61,7 +61,7 @@ const standardRoomImages = [
   standardRoomImage,
   standardRoomImage2,
   standardRoomImage3,
-  standardRoomImage4,
+  // standardRoomImage4,
 ];
 
 // executive room images

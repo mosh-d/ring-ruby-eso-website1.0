@@ -1,16 +1,16 @@
 import { Helmet } from "react-helmet";
 
 const SEO = ({
-  title = "Ring Ruby Hotel Eso | Luxury Accommodation in Ikeja GRA, Lagos",
-  description = "Experience luxury and comfort at Ring Ruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
-  keywords = "hotel, lagos, accommodation, ring ruby, eso, ikeja gra, oduduwa crescent, luxury hotel, nigeria, business hotel, vacation",
+  title = "Ringruby Hotel Eso | Luxury Accommodation in Ikeja GRA, Lagos",
+  description = "Experience luxury and comfort at Ringruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
+  keywords = "hotel, lagos, accommodation, ringruby, eso, ikeja gra, oduduwa crescent, luxury hotel, nigeria, business hotel, vacation",
   image = "/ring-ruby-logo.webp",
   url = typeof window !== "undefined"
     ? window.location.href
     : "https://ringrubyeso.fivecloverhotels.com",
   type = "website",
 }) => {
-  const siteName = "Ring Ruby Hotel Eso";
+  const siteName = "Ringruby Hotel Eso";
   const siteUrl = "https://ringrubyeso.fivecloverhotels.com";
   const twitterHandle = "@fivecloverhotel";
 
