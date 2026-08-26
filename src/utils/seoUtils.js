@@ -5,8 +5,8 @@ export const generateHotelSchema = (hotelData = {}) => {
     name: "Ring Ruby Hotel Eso",
     description:
       "Luxury hotel accommodation at Ikeja GRA, Lagos. Experience comfort and excellent service at Ring Ruby Hotel Eso.",
-    url: "https://ringrubyeso.fivecloverhotels.com",
-    logo: "https://ringrubyeso.fivecloverhotels.com/ring%20ruby%20logo.webp",
+    url: "https://eso.ringrubyhotel.com",
+    logo: "https://eso.ringrubyhotel.com/ring%20ruby%20logo.webp",
     priceRange: "$$",
     starRating: {
       "@type": "Rating",
@@ -60,13 +60,13 @@ export const generateBreadcrumbSchema = (items = []) => {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://ringrubyeso.fivecloverhotels.com",
+      item: "https://eso.ringrubyhotel.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Rooms",
-      item: "https://ringrubyeso.fivecloverhotels.com/rooms",
+      item: "https://eso.ringrubyhotel.com/rooms",
     },
   ];
 
