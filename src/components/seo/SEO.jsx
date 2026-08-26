@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 
 const SEO = ({
   title = "Ringruby Hotel Eso | Luxury Accommodation in Ikeja GRA, Lagos",
-  description = "Experience luxury and comfort at Ringruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
+  description = "Ring Ruby Hotel Eso offers refined comfort in Ikeja GRA, close to Murtala Muhammed Airport.",
   keywords = "hotel, lagos, accommodation, ringruby, eso, ikeja gra, oduduwa crescent, luxury hotel, nigeria, business hotel, vacation",
   image = 'https://eso.ringrubyhotel.com/ring-ruby-logo.webp',
   url = typeof window !== "undefined"
