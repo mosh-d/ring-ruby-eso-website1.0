@@ -12,7 +12,6 @@ const SEO = ({
   noindex = false,
 }) => {
   const siteName = "Ringruby Hotel Eso";
-  const siteUrl = "https://eso.ringrubyhotel.com";
   const twitterHandle = "@fivecloverhotel";
 
   return (
